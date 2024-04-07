@@ -1,0 +1,81 @@
+{
+    // editor config
+    "editor.formatOnSave": true,
+    "editor.fontSize": 14,
+    "editor.minimap.autohide": true,
+    "editor.minimap.renderCharacters": true,
+    "editor.cursorBlinking": "blink",
+    "editor.cursorStyle": "line",
+    "editor.codeLens": true,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 1.5,
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.fontFamily": "'Jetbrains Mono', monospace",
+    "editor.folding": false,
+    "editor.rulers": [
+        100
+    ],
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    // window config
+    "workbench.activityBar.location": "top",
+    "window.titleBarStyle": "custom",
+    "window.openFilesInNewWindow": "on",
+    "breadcrumbs.enabled": true,
+    "workbench.sideBar.location": "left",
+    // code preferences
+    "editor.bracketPairColorization.enabled": true,
+    "editor.matchBrackets": "always",
+    "editor.parameterHints.enabled": true,
+    "editor.autoClosingBrackets": "alw  ays",
+    "editor.formatOnPaste": true,
+    "editor.selectionHighlight": true,
+    "prettier.useTabs": true,
+    "prettier.tabWidth": 4,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+    "editor.showUnused": true,
+    // extension config: code spell checker
+    "cSpell.language": "en,pt,pt_BR",
+    "cSpell.allowCompoundWords": true,
+    "cSpell.enabledLanguageIds": [
+        "go"
+    ],
+    // theme config
+    "workbench.colorTheme": "One Monokai",
+    "workbench.productIconTheme": "fluent-icons",
+    "symbols.hidesExplorerArrows": true,
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    // privacy
+    "telemetry.telemetryLevel": "off",
+    // search config
+    "search.exclude": {
+        "**/node_modules": true,
+    },
+    // terminal config
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.fontWeight": "300",
+    "terminal.integrated.fontFamily": "'Jetbrains Mono', monospace",
+    "tabnine.experimentalAutoImports": true,
+    "cSpell.userWords": [
+        "allocs",
+        "bemobidev",
+        "cmdline",
+        "dimiro",
+        "msisdn"
+    ],
+    // git
+    "gitlens.currentLine.enabled": true,
+    "gitlens.currentLine.uncommittedChangesFormat": "🚧 ${author} (${date}) - ${message}",
+    "gitlens.blame.highlight.enabled": true,
+    "gitlens.defaultDateFormat": "YYYY-MM-DD",
+    "gitlens.defaultDateShortFormat": "MMM D, YYYY",
+    "gitlens.defaultDateStyle": "relative",
+    "gitlens.blame.avatars": true,
+    "window.customTitleBarVisibility": "auto",
+}
