@@ -78,4 +78,8 @@
     "gitlens.defaultDateStyle": "relative",
     "gitlens.blame.avatars": true,
     "window.customTitleBarVisibility": "auto",
+    // typescript coderunner
+    "code-runner.executorMap": {
+        "typescript": "npx ts-node --files ./",
+    }
 }
