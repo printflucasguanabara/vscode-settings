@@ -2,6 +2,7 @@
     // editor config
     "editor.formatOnSave": true,
     "editor.fontSize": 14,
+    "editor.wordWrap": "on",
     "editor.minimap.autohide": true,
     "editor.minimap.renderCharacters": true,
     "editor.cursorBlinking": "blink",
